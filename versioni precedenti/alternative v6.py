@@ -16,7 +16,7 @@ GAP_MM = 5
 PAGE_W = 210  # A4 mm
 PAGE_H = 297  # A4 mm
 
-CONFIG_FILE = "card_printer_config.json"
+CONFIG_FILE = "../card_printer_config.json"
 
 
 # ---------- funzioni utili ----------
