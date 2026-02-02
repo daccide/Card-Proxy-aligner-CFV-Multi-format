@@ -11,7 +11,7 @@ import tempfile
 CARD_WIDTH_MM = 59
 CARD_HEIGHT_MM = 86
 GAP_MM = 5
-DPI = 1200  # puoi aumentare fino a 2400 per più dettaglio
+DPI = 2400  # puoi aumentare fino a 2400 per più dettaglio
 
 PAGE_W = 210  # A4 mm
 PAGE_H = 297  # A4 mm
