@@ -1,6 +1,6 @@
 # 📄 README – Card PDF Generator
 
-Questo programma permette di creare un **PDF pronto per la stampa fronte-retro** con:  
+Questo programma permette di creare un **PDF pronto per la stampa fronte-retro** -selezionando l'exe nella cartella dist- con:  
 - **Carte (immagini)** disposte su griglia in formato A4.  
 - **Crop marks** (segni di taglio) per il rifilo.  
 - **Loghi sul retro**, posizionati esattamente sotto ogni carta.  
