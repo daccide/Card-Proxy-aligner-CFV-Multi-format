@@ -109,7 +109,6 @@ def apply_pdf_format(pdf, pdf_format):
     if "PDF/X" in pdf_format:
         pdf.set_creator('Card Printer Pro')
         pdf.set_title('Carte Vanguard - Stampa Professionale')
-
         if "X-1a" in pdf_format:
             pdf.set_subject('PDF/X-1a - CMYK Printing')
         elif "X-3" in pdf_format:
