@@ -107,7 +107,7 @@ def apply_pdf_format(pdf, pdf_format):
 
     # Metadata specifici per formato
     if "PDF/X" in pdf_format:
-        pdf.set_creator('Card Printer Pro - Vanguard Edition')
+        pdf.set_creator('Card Printer Pro')
         pdf.set_title('Carte Vanguard - Stampa Professionale')
 
         if "X-1a" in pdf_format:
