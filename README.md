@@ -15,27 +15,6 @@ Questo programma permette di creare un **PDF pronto per la stampa fronte-retro**
 - Salvataggio del PDF finale con **layout automatico** delle carte.  
 - Possibilità di scegliere il **flip mode** (short/long) per allineare correttamente fronte e retro.  
 
----
-
-## 📦 Requisiti
-
-### Installazione pacchetti
-Assicurati di avere **Python 3.9+**.  
-Installa le librerie necessarie:
-
-```bash
-pip install fpdf2 Pillow opencv-python 
-```
-
----
-
-## ▶️ Utilizzo
-
-1. Avvia lo script:
-
-```bash
-python main.py
-```
 
 2. Il programma chiederà di:  
    - Scegliere la cartella con le **immagini delle carte**.  
@@ -46,14 +25,13 @@ python main.py
 
 4. Una volta pronto, stampa il PDF in modalità **fronte-retro manuale**.  
    - Quando richiesto, reinserisci i fogli nel vassoio.  
-   - Se il retro non combacia, prova a cambiare il `flip_mode` da `"short"` a `"long"`.  
 
 ---
 
 ## ⚠️ Note importanti
 - Non tutte le stampanti gestiscono il duplex automatico → in molti casi il fronte-retro è manuale.  
 - È consigliato fare una **stampa di prova** con poche carte prima di stampare l’intero set.  
-- Puoi modificare le misure (es. dimensioni carte, margini, gap) direttamente nel codice:  
+- Puoi modificare le misure (es. dimensioni carte, margini, gap) direttamente nell'app:  
 
 ```python
 CARD_WIDTH_MM = 59
